@@ -52,7 +52,7 @@
 
   <properties>
     <netbeans.checkstyle.format>true</netbeans.checkstyle.format>
-    <mvnversion>3.0.4</mvnversion>
+    <mvnversion>3.5.0</mvnversion>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>    
   </properties>
@@ -71,7 +71,7 @@
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.7.2</version>
+      <version>1.8.3</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -116,12 +116,12 @@
     <dependency>
       <groupId>org.apache.maven</groupId>
       <artifactId>maven-artifact</artifactId>
-      <version>2.2.0</version>
+      <version>3.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
-      <version>2.33.0</version>
+      <version>3.13.0</version>
       <type>jar</type>
     </dependency>
 
@@ -134,7 +134,7 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.2.5</version>
+      <version>4.5.2</version>
     </dependency>
   </dependencies>
 
