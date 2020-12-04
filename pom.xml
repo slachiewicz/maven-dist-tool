@@ -121,7 +121,7 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
-      <version>2.33.0</version>
+      <version>3.0.0</version>
       <type>jar</type>
     </dependency>
 
@@ -134,7 +134,7 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.2.5</version>
+      <version>4.5.13</version>
     </dependency>
   </dependencies>
 
