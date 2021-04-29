@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.apache.maven:maven-artifact
+    versions:
+    - 3.8.1
+  - dependency-name: org.codehaus.mojo:animal-sniffer-maven-plugin
+    versions:
+    - "1.20"
+  - dependency-name: org.apache.httpcomponents:httpclient
+    versions:
+    - 4.5.13
